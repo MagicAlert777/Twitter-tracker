@@ -22,15 +22,15 @@ notification_queue = []
 processed_tweet_ids = set()  # Хранение обработанных ID твитов
 
 # Twitter API configuration
-TWITTER_API_KEY = "ff517b33a69d4f9e92e4d3ed8d74d84d"
+TWITTER_API_KEY = "Token from https://twitterapi.io/"
 TWITTER_API_URL = "https://api.twitterapi.io/twitter/tweets"
 
 # Telegram configuration
-TELEGRAM_BOT_TOKEN = "7629741730:AAG2ACQnz7rKjbEIVacxN0MoL9MhD4d7g_I"  # Replace with your bot token
-TELEGRAM_CHAT_ID = -1002441630375  # Replace with your chat ID
+TELEGRAM_BOT_TOKEN = "Token"  # Replace with your bot token
+TELEGRAM_CHAT_ID =   # Replace with your chat ID
 
 # Discord configuration
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1359236110571540540/FrXkkYMmpLCSabDxbO0ku5vK0LeiPZ-kWVmH1TyUukEh4Spa1HXi9OTk7n6m4FwTkg45"  # Replace with your Discord webhook URL
+DISCORD_WEBHOOK_URL = " "  # Replace with your Discord webhook URL
 
 # Initialize Telegram bot
 telegram_bot = TwitterTelegramBot(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, DISCORD_WEBHOOK_URL)
